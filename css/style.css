@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400');
+@import url('https://fonts.googleapis.com/css?family=Raleway:700');
+
+
+
+body{
+	font: 400 22px/1.36 Lato, sans-serif;
+}
+
+/* Layout */
+.ba-container{
+	/* padding-left: 165px; */
+	/* padding-right: 165px; */
+	/* padding-left: 20px; */
+	/* padding-right: 20px; */
+	max-width: 1170px;
+}
+
+.ba-intro {
+	background: #00476B url(../img/background-header.jpg) 50%;
+	background-size: cover;
+}
+.ba-once {
+	text-align: center;
+}
+.ba-menu {
+	float: left;
+	list-style: none;
+	margin: 0;
+	/* padding: 38px 0 0; */
+}
+.ba-menu li {
+	float: left;
+	text-transform: uppercase;
+/* 	font: 400 14px Lato, sans-serif;
+*/}
+.ba-menu a{
+	display: inline-block;
+	vertical-align: middle;
+	color: #FFF;
+	text-decoration: none;
+	margin: 0 45px;
+	font-size: 14px;
+	font-weight: 400;
+}
+.ba-header-nav {
+	float: right;
+}
+.ba-title {
+	color: #FFF;
+	font: 700 48px/1.25 Raleway, sans-serif;
+	text-transform: uppercase;
+}
+.ba-title:after {
+	display: block;
+	content: "";
+	height: 1px;
+	width: 90px;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.ba-subtitle {
+	color: #fffefe;
+	font: 400 22px/1.36 Lato, sans-serif;
+	margin: 0 auto;
+	max-width: 600px;
+	margin-bottom: 255px;
+}
+.ba-header {
+	padding-top: 50px;
+	padding-bottom: 240px;
+}
+.ba-once {
+	padding-bottom: 45px;
+}
+.ba-width-1-3 {
+	text-align: center;
+}
+.ba-section-name {
+	text-align: center;
+	text-transform: uppercase;
+	font: 700 35px/1 Raleway, sans-serif;
+	/* margin-top: 0; */
+	/* margin-bottom: 150px; */
+	margin: 0;
+}
+.ba-section-services {
+	/* padding-top: 150px; */
+	padding-bottom: 115px;
+	vertical-align: middle;
+}
+.ba-services-name {
+	font: 400 24px/1 Lato, sans-serif;
+}
+.ba-services-subtitle {
+	font: 400 16px/1.87 Lato, sans-serif;
+	margin-bottom: 0;
+
+}
+.ba-services {
+	padding-top: 115px;
+	/* padding-bottom: 115px; */
+}
+.ba-section-name:after {
+	display: block;
+	content: "";
+	height: 1px;
+	width: 90px;
+	background: #000;
+	margin: 0 auto;
+	margin-top: 75px;
+	margin-bottom: 75px;
+
+}
+.ba-dolore {
+	position: relative;
+	background: #424242 url(../img/bcg-dolore.jpg) 50%;
+	background-size: cover;
+	height: 500px;
+
+}
+.ba-dolore-title {
+	font: 400 45px/1.3 Lato, sans-serif;
+	color: #FFF;
+	text-transform: uppercase;
+
+
+}
+.ba-dolore-subtitle {
+	font: 100 22px/1.3 Lato, sans-serif;
+	color: #FFF;
+}
+.ba-more {
+	font: 400 18px/1.3 Lato, sans-serif;
+	color: #969696;
+}
+.ba-bigphone {
+position: absolute;
+right: 315px;
+top: 75px;
+}
+.ba-dolore-title {
+	margin-top: 0;
+	margin-top: 160px;
+}
+.ba-our-work {
+	padding-top: 110px;
+	padding-bottom: 80px;
+}
+.ba-section-name-work {
+	margin: 0;
+}
+.ba-section-name-work:after {
+	display: block;
+	content: "";
+	height: 2px;
+	width: 90px;
+	background: #000;
+	margin: 0 auto;
+	margin-top: 70px;
+	margin-bottom: 90px;
+}
+.ba-our-work img:hover {
+	opacity: .6;
+}
+
+
+
+
+
+
+.ba-row {
+/* 	vertical-align: baseline;
+*/}
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
